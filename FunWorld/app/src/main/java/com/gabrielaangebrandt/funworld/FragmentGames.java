@@ -12,24 +12,24 @@ import android.widget.Button;
  * Created by Gabriela on 16.5.2017..
  */
 
-public class MyFirstTabFragment extends Fragment{
+public class FragmentGames extends Fragment implements View.OnClickListener{
     Button memory1, millionire1, picado1;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         // Declare your second fragment here
-    View view = inflater.inflate(R.layout.fragment_countries, container, false);
+    View view = inflater.inflate(R.layout.fragment_games, container, false);
 
         this.memory1 = (Button) view.findViewById(R.id.memory);
         this.millionire1 = (Button) view.findViewById(R.id.millionaire);
         this.picado1 = (Button) view.findViewById(R.id.picado);
 
-       /* memory1.setOnClickListener(this);
+       memory1.setOnClickListener(this);
         millionire1.setOnClickListener(this);
-        picado1.setOnClickListener(this);*/
+        picado1.setOnClickListener(this);
         return view;
     }
 
-   /* @Override
+    @Override
     public void onClick(View view) {
         switch(view.getId()){
             case R.id.memory:
@@ -41,5 +41,5 @@ public class MyFirstTabFragment extends Fragment{
             case R.id.picado:
                 break;
         }
-    }*/
+    }
 }

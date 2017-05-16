@@ -27,7 +27,7 @@ public class FragmentCountries extends Fragment {
         View v = inflater.inflate(R.layout.fragment_countries, container, false);
         listView = (ListView) v.findViewById(R.id.listCountries);
         listOfCountries = getResources().getStringArray(R.array.countries1);
-        ArrayAdapter adapter = new ArrayAdapter(getActivity(), android.R.layout.simple_list_item_1, listOfCountries);
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, listOfCountries);
 
         listView.setAdapter(adapter);
         return v;
