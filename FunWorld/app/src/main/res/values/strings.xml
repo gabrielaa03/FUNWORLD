@@ -27,4 +27,69 @@
     <string name="email">Email:</string>
     <string name="hint_email">e.g.  dave@gmail.com</string>
     <string name="error_passwordsDontMatch">Passwords do not match!</string>
+    <string name="chooseQuestion">Choose one question for password recover:</string>
+    <string name="example_answer">e.g. My mother\'s birthplace is Osijek.</string>
+    <string-array name="questions">
+        <item>What is your mothers birthplace?</item>
+        <item>What is the name of your first pet?</item>
+        <item>What is the name of your primary school teacher?</item>
+    </string-array>
+    <string name="countries">About country</string>
+    <string name="games">Games</string>
+    <string name="picado">Picado</string>
+    <string name="millionaire">Wright Answer</string>
+    <string name="memory">Memory</string>/>
+    <string-array name="countries1">
+        <item>Albania</item>
+        <item>Andorra</item>
+        <item>Armenia</item>
+        <item>Austria</item>
+        <item>Azerbaijan</item>
+        <item>Belarus</item>
+        <item>Belgium</item>
+        <item>Bosnia and Herzegovina</item>
+        <item>Bulgaria</item>
+        <item>Croatia</item>
+        <item>Cyprus</item>
+        <item>Czech Republic</item>
+        <item>Denmark</item>
+        <item>Estonia</item>
+        <item>Finland</item>
+        <item>France</item>
+        <item>Georgia</item>
+        <item>Germany</item>
+        <item>Greece</item>
+        <item>Hungary</item>
+        <item>Iceland</item>
+        <item>Ireland</item>
+        <item>Italy</item>
+        <item>Kazahstan</item>
+        <item>Kosovo</item>
+        <item>Latvia</item>
+        <item>Liechtenstein</item>
+        <item>Lithuania</item>
+        <item>Luxembourg</item>
+        <item>Macedonia</item>
+        <item>Malta</item>
+        <item>Moldova</item>
+        <item>Monaco</item>
+        <item>Montenegro</item>
+        <item>Netherlands</item>
+        <item>Norway</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Romania</item>
+        <item>Russia</item>
+        <item>San Marino</item>
+        <item>Serbia</item>
+        <item>Slovakia</item>
+        <item>Slovenia</item>
+        <item>Spain</item>
+        <item>Sweden</item>
+        <item>Switzerland</item>
+        <item>Turkey</item>
+        <item>Ukraine</item>
+        <item>United Kingdom (UK)</item>
+        <item>Vatican City (Holy See)</item>
+    </string-array>
 </resources>

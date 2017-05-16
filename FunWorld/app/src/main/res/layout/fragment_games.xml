@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:id="@+id/logo"/>
+
+    <Button
+        android:layout_below="@+id/logo"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:id="@+id/memory"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/memory"
+        android:textAlignment="center"
+        android:textSize="50px"
+        android:textStyle="bold"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:id="@+id/millionaire"
+        android:layout_below="@+id/memory"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/millionaire"
+        android:textAlignment="center"
+        android:textSize="50px"
+        android:textStyle="bold"
+        />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:id="@+id/picado"
+        android:layout_below="@+id/millionaire"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/picado"
+        android:textAlignment="center"
+        android:textSize="50px"
+        android:textStyle="bold"/>
+
+</RelativeLayout>

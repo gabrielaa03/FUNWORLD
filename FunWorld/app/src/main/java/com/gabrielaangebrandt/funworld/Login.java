@@ -19,6 +19,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
     }
 
     private void setUpIU() {
+
         this.bLogin = (Button) findViewById(R.id.bLogin);
         this.bRegister = (Button) findViewById(R.id.bRegister);
         this.username = (EditText) findViewById(R.id.username);
@@ -31,16 +32,16 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
 
     @Override
     public void onClick(View view) {
-        Intent intent = null;
+
         switch(view.getId()) {
-            case R.id.bLogin:
+            case (R.id.bLogin):
                 //if statement for username and password
-                intent = new Intent(this, MainActivity.class);
+                Intent intent = new Intent(this, MainActivity.class);
                 startActivity(intent);
                 break;
-            case R.id.bRegister:
-                intent = new Intent (this, RegisterActivity.class);
-                startActivity(intent);
+            case (R.id.bRegister):
+                Intent intent1 = new Intent (this, RegisterActivity.class);
+                startActivity(intent1);
                 break;
         }
     }

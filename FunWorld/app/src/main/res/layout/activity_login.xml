@@ -5,14 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.gabrielaangebrandt.funworld.Login">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:id="@+id/logo"/>
 
     <EditText
         android:id="@+id/username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="20sp"
-        android:layout_marginTop="50dp"
-        android:hint="@string/prompt_username"/>
+        android:layout_marginTop="20dp"
+        android:hint="@string/prompt_username"
+        android:layout_below="@+id/logo"/>
     <EditText
         android:id="@+id/password"
         android:layout_below="@+id/username"
@@ -48,5 +54,6 @@
         android:layout_marginTop="10dp"
         android:layout_centerHorizontal="true"
         android:text="@string/register"/>
+
 
 </RelativeLayout>
