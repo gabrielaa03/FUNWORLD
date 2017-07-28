@@ -4,4 +4,12 @@
     <color name="colorPrimaryDark">#186c01</color>
     <color name="colorAccent">#ffee00</color>
     <color name="white">#ffffff</color>
+    <color name="blue">#4abff1</color>
+    <color name="sample_disabled_pressed">#1E90FF</color>
+    <color name="sample_disabled_not_pressed">#080808</color>
+    <color name="sample_default">#c8cacc</color>
+    <color name="red">#660000</color>
+    <color name="siva">#d3d3d3</color>
+
+
 </resources>
